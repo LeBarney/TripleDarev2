@@ -8,6 +8,28 @@
 * {
   box-sizing: border-box;
 }
+ul{
+  color : white;
+  justify-content: space-evenly;
+  display: flex;
+  text-decoration: none;
+  background-color: rgba(128, 178, 56, 0.5);
+  list-style-type: none;
+  margin : 0;
+  padding: 1rem;
+  position: fixed ;
+  width: 100%;
+}
+
+nav li{
+  transition: transform .2s;
+}
+nav li:nth-child(odd):hover{
+  transform: rotate(3deg) scale(1.5);
+}
+nav li:nth-child(even):hover{
+  transform: rotate(-3deg) scale(1.5);
+}
 
 header{
   font-size:3rem;
@@ -16,7 +38,10 @@ header{
   padding-top:0.5rem;
   padding-bottom: 0;
   text-align: center;
-  background-image: url("blue-splash.png");
+  background-image:url(../img/blue-splash.png);
+  background-size:cover;
+  background-position:center center;
+  
   
   align-items:stretch;
   padding: 16rem;
@@ -55,18 +80,6 @@ button {
 a{
   text-decoration-line: none;
   text-transform: uppercase;
-}
-
-
-ul{
-  color : white;
-  justify-content: space-evenly;
-  display: flex;
-  text-decoration: none;
-  background-color: #80b238;
-  list-style-type: none;
-  margin : 0;
-  padding: 1rem;
 }
 
 ul > li > a{color:white};
