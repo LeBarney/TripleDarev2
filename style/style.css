@@ -53,6 +53,7 @@ h2{
 }
 .obstacles article{
   background-color:var(--green);
+  flex: 1;
 }
 
 .obstacles{
@@ -67,6 +68,8 @@ h2{
   display: flex;
   flex-direction: row;
   margin: auto;
+  max-width: 1024;
+  flex-wrap: wrap;
   
 }
 body {
