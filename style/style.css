@@ -32,22 +32,43 @@ nav li:nth-child(even):hover{
 }
 header h1,p{
     text-shadow: 2px 2px white;
-    color:#fe6638;
+    color: var(--orange);
+    margin:0;
 }
 header{
   font-size:3rem;
-  padding-top:0.5rem;
-  padding-bottom: 0;
   text-align: center;
   background-image:url(../img/blue-splash.png);
   background-size:cover;
   background-position:center center;
   background-attachment: fixed;
-  align-items:stretch;
-  padding: 16rem;
-  line-height: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+h2{
+  text-align: center;
+  text-shadow: 2px 2px rgba(51, 48, 48, 0.705);
+}
+.obstacles article{
+  background-color:var(--green);
 }
 
+.obstacles{
+    background-color:var(--orange);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  
+  
+}
+
+.obstacles-group{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  
+}
 body {
   background: var(--blue);
   color: #fff;
