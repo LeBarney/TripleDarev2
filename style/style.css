@@ -9,12 +9,28 @@
   box-sizing: border-box;
 }
 
+header{
+  font-size:3rem;
+  color:#fe6638;
+  text-shadow: 1px 1px 2px white;
+  padding-top:0.5rem;
+  padding-bottom: 0;
+  text-align: center;
+  background-image: url("blue-splash.png");
+  
+  align-items:stretch;
+  padding: 16rem;
+  line-height: 1rem;
+}
+
 body {
   background: var(--blue);
   color: #fff;
   font-family: Atma, sans-serif;
   margin: 0;
   font-size: 1.5rem;
+
+  
 }
 
 h1,
@@ -34,3 +50,25 @@ button {
 
 @media (min-width: 640px) {
 }
+
+
+a{
+  text-decoration-line: none;
+  text-transform: uppercase;
+}
+
+
+ul{
+  color : white;
+  justify-content: space-evenly;
+  display: flex;
+  text-decoration: none;
+  background-color: #80b238;
+  list-style-type: none;
+  margin : 0;
+  padding: 1rem;
+}
+
+ul > li > a{color:white};
+
+
