@@ -30,19 +30,19 @@ nav li:nth-child(odd):hover{
 nav li:nth-child(even):hover{
   transform: rotate(-3deg) scale(1.5);
 }
-
+header h1,p{
+    text-shadow: 2px 2px white;
+    color:#fe6638;
+}
 header{
   font-size:3rem;
-  color:#fe6638;
-  text-shadow: 1px 1px 2px white;
   padding-top:0.5rem;
   padding-bottom: 0;
   text-align: center;
   background-image:url(../img/blue-splash.png);
   background-size:cover;
   background-position:center center;
-  
-  
+  background-attachment: fixed;
   align-items:stretch;
   padding: 16rem;
   line-height: 1rem;
