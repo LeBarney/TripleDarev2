@@ -59,7 +59,7 @@ article a{
 }
 
 
-article a:hover{
+article:hover a{
   
   color:var(--orange);
 }
@@ -76,6 +76,7 @@ article a:hover{
 
 .obstacles article:hover{
   background-color:var(--yellow);
+  color:var(--orange);
 }
 
 .obstacles{
